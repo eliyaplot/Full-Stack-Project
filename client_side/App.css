@@ -1,0 +1,210 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+h1{
+  text-align: center;
+  font-style:inherit;
+  font-size:30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+.image-container{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+img{
+  width: 20%;
+  max-height: 20%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  height:4px;
+  
+  
+  
+}
+.table_div{
+  position:absolute;
+  top:47%;
+}
+
+table2{
+  flex: auto;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse:collapse;
+}
+
+.promo_div{
+  width: 1500px;
+  overflow:auto;
+}
+
+.my-container {
+  overflow: auto;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr{
+line-height: 20px;
+height:4px;
+}
+
+img {
+  margin-top:20px;
+}
+
+th {
+  background-color: rgba(5, 153, 133, 0.588);
+  font-size:15px;
+  padding: 20px;
+}
+
+td {
+  background-color: rgb(237, 240, 241);
+  padding: 15px;
+  width: 20%;
+  
+  font-size:13px;
+}
+
+form2 {
+  display: flex;
+  gap: 5px;
+}
+
+form2 td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form2 * {
+  font-size: 25px;
+}
+
+
+
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight:bold ;
+  background-color: rgb(255, 255, 248);
+  padding: 10px 6px;
+  border-color: rgba(5, 153, 133, 0.879);
+  margin-right: 4.5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+div2{
+  align-items: center;
+}
+
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+}
+
+fieldset{
+  border-radius: 20px;
+  border-color: rgb(19, 198, 208);
+  padding-top: 3px;
+  padding-bottom: 1px;
+}
+
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom:8px;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+
+.topcorner{
+  position:absolute;
+    top:10px;
+    left: 20px;
+ }
+
+option{
+  font-weight:bold ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+select{
+  border-radius: 5px;
+  background-color: rgba(5, 153, 133, 0.588);
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  font-weight:bold ;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+select:hover {
+  border-color: #ffffff;
+}
+
+ button:hover{
+  color:whitesmoke;
+  background-color: rgba(5, 153, 133, 0.588);
+ }
+
+
+
+ input{
+  border-radius: 5px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width:90%;
+ }
+
+ .center{
+  position:absolute;
+  top:185px;
+  
+ }
+
+ body {
+  text-align: center;
+}
+
+.p_col{
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.top_right{
+  position:absolute;
+  top:10px;
+  right: 20px;
+}
+
+
+
+
+
+
